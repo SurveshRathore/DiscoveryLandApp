@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+.gallery-image {
+    display: flex;   
+}
+
+header {
+    padding: 2em 2em 2em 2em;
+    width: 100%;   
+}
+
+.header-content  {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu {
+    display: flex;
+    gap:500px;
+}
+
+.logo {
+    
+    justify-content: flex-start;
+    padding: 30px;
+   
+}
+
+.logo > img {
+    height: 40px;
+}
+
+.menu-list
+{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    text-align: left;
+    gap: 30px;
+    font-size: large;
+    padding: 30px;
+    justify-content: stretch;
+    list-style-type: none;
+
+}
+
+.gallery-image {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 0px 0px 0px;
+}
+
+.gallery-image img {   
+    height: 150px;
+    width: 302px;
+}
+
+.caption {
+    color: aliceblue;   
+    text-transform: capitalize;
+}
+
+.caption-place {
+    color: rgb(67, 75, 82);   
+    text-transform: capitalize;
+}
+.gallery-image > h3{
+    text-align: left;
+    color: aliceblue;   
+    
+}
+
+.gallery-image > h4{
+    text-align: left;
+    color: aliceblue;   
+    
+}
+
+
+
+.head-comapny {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.Gallery-heading {
+    padding: 0 10 auto auto;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: column;
+    margin: 0 20;
+}
+
+footer {
+    color: aliceblue;
+    background-color: #0c0b0bf5;
+}
+
+.footer-all {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+footer div {
+    margin: 5em 5em 5em auto;
+}
+
+footer span {
+    margin: auto auto auto 0;
+}
+
+
+
+.footer-logo {
+    justify-content: flex-start;
+}
+
+.footer-content {
+    justify-content: flex-end;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-flow: row;
+    margin: 2px 2px 2px 2px;
+    padding: 2px;
+}
